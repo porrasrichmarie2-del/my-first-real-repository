@@ -1,0 +1,14 @@
+name = input("Enter your name: ")
+prelim = float(input("Enter Prelim grade: "))
+midterm = float(input("Enter Midterm grade: "))
+finals = float(input("Enter Finals grade: "))
+
+average = (prelim + midterm + finals) / 3
+
+print("\nStudent Name:", name)
+print("Average Grade:", round(average, 2))
+
+if average >= 75:
+    print("Status: PASSED")
+else:
+    print("Status: FAILED")
