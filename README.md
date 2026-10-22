@@ -15,3 +15,7 @@ How to Run
 
 Purpose
 This project helps me practice GitHub, version control, commits, and branching.
+
+Version Control Practice
+This section was added using a separate branch.
+After testing the changes, the branch will be merged into main.
